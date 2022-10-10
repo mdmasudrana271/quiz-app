@@ -1,12 +1,13 @@
 import React, { useContext } from 'react';
 import { useLoaderData } from 'react-router-dom';
-import { QuizContext } from '../../Layout/Main';
+import { CorrectContext, WrongContext } from '../../Layout/Main';
 import Question from '../Question/Question';
 
 const Quiz = () => {
     const quiz = useLoaderData().data
     const {name, questions,} = quiz;
-    const [Correct,setCorrect] = useContext(QuizContext)
+    const [correct] = useContext(CorrectContext)
+    const [wrong] = useContext(WrongContext)
     // console.log(quiz)
     return (
         <div className='my-20 mx-5'>
@@ -20,7 +21,8 @@ const Quiz = () => {
                 </div>
                 <div className='bg-indigo-200 md:w-3/12 sm:w-full rounded-lg p-5 h-[200px] sticky top-[220px]'>
                     <h1 className='text-3xl font-semibold'>Quiz Summary</h1>
-                    <p>Correct Ans : {Correct}</p>
+                    <p className='text-lg font-semibold'>Correct Ans : {correct}</p>
+                    <p className='text-lg font-semibold'>Wrong Ans : {wrong}</p>
                 </div>
             </div>
         </div>

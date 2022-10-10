@@ -7,8 +7,8 @@ const Option = ({ opt, handleSelect }) => {
     // </div>
 
     <div onClick={()=>handleSelect(opt)} className="">
-        <div  className="label cursor-pointer flex justify-around gap-5 my-5">
-            <span className="label-text">{opt}</span> 
+        <div  className=" cursor-pointer flex justify-around gap-5 my-5">
+            <span className="text-sm">{opt}</span> 
             <input type="radio" name="radio-6" className="radio checked:bg-blue-500" />
         </div>
     </div>

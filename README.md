@@ -27,6 +27,6 @@ Header photo [Freepic] (https://www.freepik.com/)
 
 toast [toastify] (https://www.npmjs.com/package/react-toastify)
 
-##featurse
+### featurse
 
 Added multiple routes and dynamic route cart functionality added for count quiz ans count added some to alert added responsive card and also added chart for analysis quiz quantity data also added responsiveness in whole site
