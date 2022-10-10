@@ -7,7 +7,7 @@ const Home = () => {
     const topics = useContext(TopicsContext)
     console.log(topics)
     return (
-        <div className='bg-gray-200'>
+        <div className='bg-white'>
             <section className="bg-slate-200 mb-10 w-full">
                 <div className="container flex flex-col justify-center bg-slate-50 p-6 mx-auto sm:py-12 lg:py-24 lg:flex-row lg:justify-between">
                     <div className="flex flex-col justify-center p-6 text-center rounded-sm lg:max-w-md xl:max-w-lg lg:text-left">
