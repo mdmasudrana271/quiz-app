@@ -1,5 +1,3 @@
-import React, { useState } from "react";
-
 const Option = ({ opt, handleSelect }) => {
   console.log(opt);
   return (
@@ -9,10 +7,10 @@ const Option = ({ opt, handleSelect }) => {
     // </div>
 
     <div onClick={()=>handleSelect(opt)} className="">
-        <label  className="label cursor-pointer flex justify-around gap-5 my-5">
+        <div  className="label cursor-pointer flex justify-around gap-5 my-5">
             <span className="label-text">{opt}</span> 
             <input type="radio" name="radio-6" className="radio checked:bg-blue-500" checked />
-        </label>
+        </div>
     </div>
 
   );
