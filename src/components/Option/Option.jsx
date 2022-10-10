@@ -1,11 +1,6 @@
 const Option = ({ opt, handleSelect }) => {
   console.log(opt);
   return (
-    // <div className="py-2 px-5 m-10  rounded-lg  font-semibold">
-    //   <button onClick={()=>handleSelect(opt)} className="text-sm">{opt}</button>
-    //   <input type="radio" name="radio-4" className="radio radio-accent" />
-    // </div>
-
     <div onClick={()=>handleSelect(opt)} className="">
         <div  className=" cursor-pointer flex justify-around gap-5 my-5">
             <span className="text-sm">{opt}</span> 

@@ -7,11 +7,11 @@ Live Link [Quiz Quip](https://github.com/facebook/create-react-app).
 
 ## Context API
 
-Document Link [Link]('https://reactjs.org/docs/context.html#api')
+Document [Link](https://reactjs.org/docs/context.html#api)
 
 ### React Router Dom v6.4
 
-Document [Link](https://reactrouter.com/en/main/start/overview) to view it in your browser.
+Document [Link](https://reactrouter.com/en/main/start/overview)
 
 
 ### Resources & Credits
