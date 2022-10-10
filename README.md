@@ -16,11 +16,17 @@ Document [Link](https://reactrouter.com/en/main/start/overview) to view it in yo
 
 ### Resources & Credits
 
-Tailwind Components [deisyui](https://facebook.github.io/create-react-app/docs/running-tests) [mambaui] (https://www.mambaui.com/)
+Tailwind Components:
+Link [deisyui](https://facebook.github.io/create-react-app/docs/running-tests) 
+Link [mambaui] (https://www.mambaui.com/)
 
 ### Other Resources
 
+icon [FontAwesomeIcon](https://fontawesome.com/v5/docs/web/use-with/react) 
+Header photo [Freepic] (https://www.freepik.com/)
 
+toast [toastify] (https://www.npmjs.com/package/react-toastify)
 
-icon [FontAwesomeIcon](https://fontawesome.com/v5/docs/web/use-with/react) photo [Freepic] (https://www.freepik.com/)
+##featurse
 
+Added multiple routes and dynamic route cart functionality added for count quiz ans count added some to alert added responsive card and also added chart for analysis quiz quantity data also added responsiveness in whole site
