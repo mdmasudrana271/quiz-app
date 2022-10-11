@@ -3,7 +3,7 @@
 This is an online quize platform better knowledge retention will help the students be thorough with their concepts. It will lead to better performance of the students in the future. This will also help students improve their memory. .
 
 
-Live Link [Quiz Quip](https://github.com/facebook/create-react-app).
+Live Link [Quiz Quip](https://benevolent-moxie-7ed665.netlify.app/).
 
 ## Context API
 
