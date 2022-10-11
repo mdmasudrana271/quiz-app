@@ -17,7 +17,8 @@ Document [Link](https://reactrouter.com/en/main/start/overview)
 ### Resources & Credits
 
 Tailwind Components:
-Link [deisyui](https://facebook.github.io/create-react-app/docs/running-tests) 
+Link [deisyui](https://daisyui.com/) 
+
 Link [mambaui] (https://www.mambaui.com/)
 
 ### Other Resources

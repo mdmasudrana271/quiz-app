@@ -14,11 +14,11 @@ const Statistics = () => {
   const data = topics.map((topic) => topic);
   //   console.log(total);
   return (
-    <div className="  my-10">
+    <div className="">
       <div>
         <h1 className="text-3xl font-bold text-indigo-500">Data Analysis</h1>
         </div>
-      <div className="  my-10">
+      <div className="">
         <LineChart
           width={600}
           height={300}
