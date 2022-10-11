@@ -26,7 +26,7 @@ const Question = ({quest}) => {
         <div className='bg-gray-100 my-5 w-full mx-auto p-5 border-sky-200 rounded-lg '>
                 <button onClick={()=> toast.success(correctAnswer) } className='flex justify-start'><FontAwesomeIcon icon={faEye}></FontAwesomeIcon></button>
                 <h1 className='text-xl font-semibold text-cyan-500'>{question}</h1>
-            <div className='grid md:grid-cols-2'>
+            <div  className='grid md:grid-cols-2'>
                 {
                     options.map(opt=> <Option key={id} opt={opt} handleSelect={handleSelect}></Option>)
                 }
