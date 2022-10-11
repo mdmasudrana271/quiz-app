@@ -12,7 +12,6 @@ import { TopicsContext } from "../../Layout/Main";
 const Statistics = () => {
   const topics = useContext(TopicsContext);
   const data = topics.map((topic) => topic);
-  //   console.log(total);
   return (
     <div className="my-10">
       <div>
