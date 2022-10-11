@@ -5,20 +5,17 @@ import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import React, { useContext } from 'react';
 import Option from '../Option/Option'
-import { CorrectContext, WrongContext } from '../../Layout/Main';
 
 const Question = ({quest}) => {
     const {question, correctAnswer, options,id} = quest
-    const [correct,setCorrect] = useContext(CorrectContext)
-    const [wrong,setWrong] = useContext(WrongContext)
+    console.log(options)
+
     const handleSelect = opt =>{
         if(opt === correctAnswer){
             toast.success('Correct Answer')
-            setCorrect(correct + 1 )
         }
         else{
             toast.error('Wrong Answer')
-            setWrong(wrong + 1)
         }
     }
     // console.log(options)

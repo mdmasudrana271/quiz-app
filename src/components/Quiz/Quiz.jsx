@@ -1,21 +1,16 @@
-import React, { useContext } from "react";
 import { useLoaderData } from "react-router-dom";
-import { CorrectContext, WrongContext } from "../../Layout/Main";
 import Question from "../Question/Question";
 
 const Quiz = () => {
   const quiz = useLoaderData().data;
   const { name, questions } = quiz;
-  const [correct] = useContext(CorrectContext);
-  const [wrong] = useContext(WrongContext);
-  // console.log(quiz)
   return (
     <div className="my-20 mx-5">
       <h2 className="text-2xl text-cyan-600 font-semibold mb-10">
         Quiz Of {name}
       </h2>
 
-      <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-5">
+      <div className="grid md:grid-cols-2 gap-5">
         {questions.map((question) => (
           <Question key={question.id} quest={question}></Question>
         ))}
