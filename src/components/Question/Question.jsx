@@ -3,7 +3,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { toast } from 'react-toastify'
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-import React, { useContext } from 'react';
 import Option from '../Option/Option'
 
 const Question = ({quest}) => {
@@ -25,23 +24,11 @@ const Question = ({quest}) => {
                 <h1 className='text-xl font-semibold text-cyan-500'>{question}</h1>
             <div  className='grid md:grid-cols-2'>
                 {
-                    options.map(opt=> <Option key={id} opt={opt} handleSelect={handleSelect}></Option>)
+                    options.map(opt=> <Option key={id} opt={opt} id={id} handleSelect={handleSelect}></Option>)
                 }
             </div>
-
-
-            <ToastContainer
-                position="top-center" 
-                autoClose={500} 
-                hideProgressBar={false} 
-                newestOnTop={false}
-                closeOnClick
-                rtl={false}
-                pauseOnFocusLoss
-                draggable
-                pauseOnHover
-                theme="light"
-/>
+            
+            <ToastContainer position="top-center"  autoClose={500}/>
         </div>
     );
 };
