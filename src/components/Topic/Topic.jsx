@@ -5,6 +5,7 @@ import { faArrowAltCircleRight } from '@fortawesome/free-solid-svg-icons'
 
 
 const Topic = ({ topic }) => {
+//  distructure topic 
     const {name, logo, id, total} = topic;
   return (
     <div>
